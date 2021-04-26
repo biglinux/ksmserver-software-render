@@ -1,0 +1,12 @@
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Upgrade
+Target = plasma-workspace
+Target = plasma-workspace-git
+Target = ksmserver-software-render
+
+[Action]
+Description = Force ksmserver greeter use software render
+When = PostTransaction
+Exec = /usr/share/libalpm/scripts/ksmserver-software-render

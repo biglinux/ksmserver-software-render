@@ -1,0 +1,9 @@
+[Trigger]
+Type = Package
+Operation = Remove
+Target = ksmserver-software-render
+
+[Action]
+Description = Remove force ksmserver greeter use software render
+When = PreTransaction
+Exec = /usr/share/libalpm/scripts/ksmserver-software-render-remove

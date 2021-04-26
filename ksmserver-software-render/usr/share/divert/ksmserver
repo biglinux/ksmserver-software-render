@@ -1,0 +1,3 @@
+#!/bin/sh
+
+QT_QUICK_BACKEND=software exec /usr/bin/ksmserver.divert ${1+"$@"}

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+if [ "$(file -i /usr/bin/ksmserver | grep 'charset=binary')" = "" ]; then
+    mv -f /usr/bin/ksmserver.distrib /usr/bin/ksmserver
+fi
