@@ -9,4 +9,4 @@ Target = ksmserver-software-render
 [Action]
 Description = Force ksmserver greeter use software render
 When = PostTransaction
-Exec = /usr/share/libalpm/scripts/ksmserver-software-render
+Exec = /usr/share/libalpm/scripts/ksmserver-software-render-remove
