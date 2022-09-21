@@ -1,8 +1,8 @@
 # Maintainer: Bruno Goncalves <bigbruno@gmail.com>
 
 pkgname=ksmserver-software-render
-pkgver=1.0.0
-pkgrel=0
+pkgver=$(date +%y.%m.%d)
+pkgrel=$(date +%H%M)
 arch=('any')
 license=('GPL')
 url="https://github.com/biglinux/ksmserver-software-render"
